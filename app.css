@@ -547,8 +547,8 @@ footer セクション
     }
 
     .hero__btn {
-        top: 15px;
-        right: 15px;
+        top: 70px;
+        right: 10px;
         width: 180px;
         height: 45px;
         font-size: 1rem;
