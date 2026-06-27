@@ -659,6 +659,13 @@ footer セクション
         padding: 0 20px;
     }
 
+    .company__item--underline::after,
+    .company__item--doubleline::before,
+    .company__item--doubleline::after,
+    .company__item--time::after {
+        width: 100%;
+    }
+
     .company__label,
     .company__value,
     .company__value-address {
