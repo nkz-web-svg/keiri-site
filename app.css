@@ -669,6 +669,10 @@ footer セクション
         padding: 0 20px;
     }
 
+    .company__name {
+        font-size: 35px;
+    }
+    
     .company__item--underline::after,
     .company__item--doubleline::before,
     .company__item--doubleline::after,
