@@ -550,8 +550,8 @@ footer セクション
     }
 
     .hero__indicator {
-        bottom: 45px;
-        left: 50%;
+        bottom: 5px;
+        left: 65%;
         transform: translateX(-50%);
         position: absolute;
     }
