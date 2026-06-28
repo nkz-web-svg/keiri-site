@@ -519,31 +519,39 @@ footer セクション
 ******************************** */
 
 @media (max-width: 768px) {
+     .hero {
+        min-height: 38vh;
+        position: relative;
+    }
+    
     .hero img {
-        height: 70vh;
+         width: 100%;
+        height: auto;
+        object-fit: cover;
     }
 
     .hero__title {
-        top: 70px;
-        left: 20px;
-        font-size: 1.8rem;
+        top: 10px;
+        left: 12px;
+        font-size: 1.6rem;
     }
 
     .hero__content {
-        bottom: 40px;
-        left: 20px;
-        font-size: 1.4rem;
+        bottom: 120px;
+        left: 12px;
+        font-size: 1.3rem;
     }
 
     .hero__sub {
-        bottom: 0px;
-        left: 20px;
-        font-size: 1.1rem;
+        bottom: 70px;
+        left: 12px;
+        font-size: 1.4px;
+         line-height: 1.4;
     }
 
     .hero__indicator {
-        right: 20px;
-        bottom: 20px;
+        right: 80px;
+        bottom: 25px;
     }
 
     .hero__btn {
