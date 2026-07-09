@@ -459,34 +459,31 @@ footer セクション
 
 .footer {
     position: relative;
-    height: 700px;
-}
-
-.background img {
-    width: 100%;
-    height: 700px;
-    object-fit: cover;
-    z-index: 1;
+    background: url("images/end.jpg") center center / cover no-repeat;
+    min-height: 700px;
 }
 
 .footer__container {
     position: absolute;
-    top: 60%;
-    left: 50%;
-    z-index: 2;
+    inset: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     text-align: center;
     color: black;
-    transform: translate(-50%, -50%);
 }
 
 .footer__title {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .footer__subtitle {
-    font-size: 30px;
+    font-size: 1.875rem;
     display: inline-block;
     text-align: left;
 }
@@ -495,11 +492,11 @@ footer セクション
     display: inline-block;
     background: #FFF;
     color: #000;
-    padding: 30px 60px;
-    font-size: 30px;
+    padding: 1.875rem 3.75rem;
+    font-size: 1.875rem;
     font-weight: 500;
     text-decoration: none;
-    margin-bottom: 200px;
+    margin-bottom: 12.5rem;
 }
 
 .footer__btn:hover {
@@ -509,8 +506,8 @@ footer セクション
 
 .copyright {
     text-align: center;
-    padding: 20px 0;
-    font-size: 18px;
+    padding: 1.25rem 0;
+    font-size: 1.15rem;
     color: #000;
 }
 
