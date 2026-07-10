@@ -703,7 +703,7 @@ footer セクション
     ******************************* */
 
     .footer {
-        height: auto;
+        min-height: 600px;
     }
 
     .background img {
@@ -711,22 +711,22 @@ footer セクション
     }
 
     .footer__container {
-        top: 50%;
+        top: 10%;
     }
 
     .footer__title {
         white-space: nowrap;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .footer__subtitle {
-        font-size: 15px;
+        font-size: 0.975rem;
     }
 
     .footer__btn {
-        padding: 20px 60px;
+        padding: 1.25rem 3.75rem;
         white-space: nowrap;
-        font-size: 18px;
-        margin-bottom: 80px;
+        font-size: 1.125rem;
+        margin-bottom: 5rem;
     }
 }
