@@ -517,7 +517,7 @@ footer セクション
 
 @media (max-width: 768px) {
      .hero {
-        min-height: 50vh;
+        min-height: 60vh;
         position: relative;
     }
     
